@@ -312,7 +312,7 @@ try {
 <div class="relative animate-fade-up delay-300">
 <div class="absolute -top-10 -right-10 w-64 h-64 bg-secondary-container/10 rounded-full blur-3xl"></div>
 <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl animate-float">
-<img alt="Premium Sneakers" class="w-full h-[500px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnT4TlspmSiCPtUfbxLCKJrgNnYyJn4xWoM9nGDNEIuO6ltmhjrnS7mJtGV1vlCUdgUCOEsHrJBuIpcte9RnT4YlgqX_R3GdHzIiphOU4tx_YxJhaENYUGOZyeRvObFPpUrQh4wemq2Pg-ecbbBwoynFxh8ggzbbevFaLD5rGxbHWGa5s-OrhLyoyUq91eFFJHLMkx_VOb6sRIidc_xPI8QJRZza9A-TubseoCQ7VbNv81yb_f2irlYSOll7HT6PdSeLQEbEaXJItB"/>
+<img alt="Premium Sneakers" class="w-full h-[500px] object-cover" src="hero1.jpeg"/>
 </div>
 <div class="absolute -bottom-6 -left-6 bg-surface-container-lowest p-md rounded-2xl shadow-xl z-20 flex items-center gap-md border border-outline-variant transform hover:scale-110 transition-transform cursor-default">
 <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-on-secondary">
@@ -338,7 +338,7 @@ try {
   <!-- Left: Promo Image -->
   <div class="w-full lg:w-1/2 flex justify-center">
     <div class="relative rounded-3xl overflow-hidden shadow-2xl hover-lift border border-outline-variant/30 max-w-md w-full">
-      <img alt="Promo Spesial Bufflab Clean Shoes" class="w-full h-auto object-cover" src="promo%20(2).jpg" />
+      <img alt="Promo Spesial Bufflab Clean Shoes" class="w-full h-auto object-cover" src="Asset/Promo/promo%20(2).jpg" />
     </div>
   </div>
 
@@ -387,11 +387,11 @@ try {
 <div class="flex flex-col md:flex-row gap-xl items-center">
 <div class="md:w-1/2 order-2 md:order-1">
 <div class="grid grid-cols-2 gap-md">
-<div class="overflow-hidden rounded-2xl shadow-md">
-<img alt="Cleaning process" class="h-64 w-full object-cover hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZf4Qgqs5HBMG4SraOpmJnnruJidt_RPVhMi7i3bkpSG4DW5auIm3-lKAnuHktXcaAQO2XFrq7jGrArAe54qz7I_HhmKPgqd6Ew57_lg8fsQe0RYfLgij_T0R4ffBb8x2UACPEH2hOI7RlOOnXUS4B-eB_ku7j3D_Tj7g1dOidnSKJfKOvwCXszRqXfJe81KFSxdewrC5LybDxB1HxbqyqULXAZQ7CJOFXnw9KCCQ1Ch303sZXVclavslFWWIWD4vSISHoDekHjMEo"/>
+<div class="overflow-hidden rounded-2xl shadow-md bg-surface-variant">
+<video autoplay loop muted playsinline class="h-64 w-full object-cover hover:scale-110 transition-transform duration-700" src="Asset/Video/videocuci.mp4"></video>
 </div>
-<div class="overflow-hidden rounded-2xl shadow-md mt-lg">
-<img alt="Deep detailing" class="h-64 w-full object-cover hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDW4ba2jhHZJjVr3NupUZnYek3BWNlwSJo5QeXLvQv8o7-FRlsg8chGHNgz6LXawS3oUiLbC9GtrnaRk6shBPICV6zJ8l1ahP8xnrbKoeBZdGtML4TPmpdRyC3yeuXynI893zlAfG-h5umY3meqt2wLmp53_ffUHdfqIPewjMMuH-bmTrwrWx1rPaLJPLXD9vvPJNJz2fT6TD8mkUF42YrH0olhM0jD0dvXKIH8EI6AQlXHCIeIn_4p698BNcUoxkvJ9zta22Oqeun8"/>
+<div class="overflow-hidden rounded-2xl shadow-md mt-lg bg-surface-variant">
+<video autoplay loop muted playsinline class="h-64 w-full object-cover hover:scale-110 transition-transform duration-700" src="Asset/Video/tools.mp4"></video>
 </div>
 </div>
 </div>
