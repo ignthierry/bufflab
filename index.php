@@ -138,6 +138,10 @@ try {
 <meta property="twitter:title" content="Bufflab Clean Shoes | Professional Shoecare Surabaya"/>
 <meta property="twitter:description" content="Layanan cuci dan perawatan sepatu premium berbasis di Surabaya. Bersih, presisi, dan aman untuk segala jenis bahan."/>
 
+<meta name="theme-color" content="#f7fafc"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.tailwindcss.com">
 <!-- Tailwind Play CDN -->
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <!-- Google Fonts & Material Symbols -->
@@ -255,7 +259,7 @@ try {
 <header class="bg-surface-container-lowest/90 backdrop-blur-md shadow-sm docked full-width top-0 sticky z-50 transition-all duration-300">
 <nav class="flex justify-between items-center px-gutter py-md max-w-7xl mx-auto relative">
 <a href="#" class="flex items-center gap-3 select-none hover:opacity-90 transition-opacity">
-  <img src="logo.png" alt="Bufflab Clean Shoes Logo" class="w-10 h-10 object-contain rounded-xl shadow-sm bg-black/5 p-0.5" />
+  <img src="logo.png" alt="Bufflab Clean Shoes Logo" width="40" height="40" class="w-10 h-10 object-contain rounded-xl shadow-sm bg-black/5 p-0.5" />
   <div class="flex flex-col leading-none">
     <span class="font-headline-md text-lg font-black tracking-tight text-primary">BUFFLAB</span>
     <span class="font-label-sm text-[9px] tracking-[0.2em] font-bold text-secondary uppercase mt-0.5">Clean Shoes</span>
@@ -312,7 +316,7 @@ try {
 <div class="relative animate-fade-up delay-300">
 <div class="absolute -top-10 -right-10 w-64 h-64 bg-secondary-container/10 rounded-full blur-3xl"></div>
 <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl animate-float">
-<img alt="Premium Sneakers" class="w-full h-[500px] object-cover" src="hero1.jpeg"/>
+<img alt="Premium Sneakers" class="w-full h-[500px] object-cover" src="hero1.jpeg" width="600" height="500" fetchpriority="high"/>
 </div>
 <div class="absolute -bottom-6 -left-6 bg-surface-container-lowest p-md rounded-2xl shadow-xl z-20 flex items-center gap-md border border-outline-variant transform hover:scale-110 transition-transform cursor-default">
 <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-on-secondary">
@@ -338,7 +342,7 @@ try {
   <!-- Left: Promo Image -->
   <div class="w-full lg:w-1/2 flex justify-center">
     <div class="relative rounded-3xl overflow-hidden shadow-2xl hover-lift border border-outline-variant/30 max-w-md w-full">
-      <img alt="Promo Spesial Bufflab Clean Shoes" class="w-full h-auto object-cover" src="Asset/Promo/promo%20(2).jpg" />
+      <img alt="Promo Spesial Bufflab Clean Shoes" class="w-full h-auto object-cover" src="Asset/Promo/promo%20(2).jpg" width="450" height="450" loading="lazy" />
     </div>
   </div>
 
@@ -463,7 +467,7 @@ try {
                 <p class="font-body-md text-body-md text-on-surface-variant"><?= htmlspecialchars($srv['description']) ?></p>
               </div>
               <div class="w-full md:w-1/3 aspect-square rounded-2xl overflow-hidden shadow-inner bg-surface-variant">
-                <img alt="Repaint Service" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8FxxMZL5uNzNE4Z3OQDU0yZlG7h8D3TEaVK7s2dM3ctFSeFicKmRNmzIL5PWIESF65yYTj4xRZgVDAHqCaXfoiWrZs3mbdByTRn4-EuQkrbbanzxBTzZHZO7p6P6CB0uhMOXK8oEyGCvvy0Tpr8RgL_hknt0VYDPY1qGohZOcMSe_pZ-KTrH4bjPRqV2WZSPGdxaHIx3uf8FgoTHeZzX56fTBgxb31fYkaplE_HAUrdI5RxtUd3tB8hSrQM_DF9DHA7vm2HoXlqL4"/>
+                <img alt="Repaint Service" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8FxxMZL5uNzNE4Z3OQDU0yZlG7h8D3TEaVK7s2dM3ctFSeFicKmRNmzIL5PWIESF65yYTj4xRZgVDAHqCaXfoiWrZs3mbdByTRn4-EuQkrbbanzxBTzZHZO7p6P6CB0uhMOXK8oEyGCvvy0Tpr8RgL_hknt0VYDPY1qGohZOcMSe_pZ-KTrH4bjPRqV2WZSPGdxaHIx3uf8FgoTHeZzX56fTBgxb31fYkaplE_HAUrdI5RxtUd3tB8hSrQM_DF9DHA7vm2HoXlqL4" loading="lazy" />
               </div>
             </div>
         <?php elseif ($index === 0 || $index === 4): ?>
@@ -675,7 +679,7 @@ try {
 <div class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-lg w-full max-w-7xl mx-auto">
 <div class="mb-lg md:mb-0">
 <div class="flex items-center gap-3 select-none mb-3">
-  <img src="logo.png" alt="Bufflab Clean Shoes Logo" class="w-10 h-10 object-contain rounded-xl shadow-md bg-white/10 p-0.5" />
+  <img src="logo.png" alt="Bufflab Clean Shoes Logo" width="40" height="40" loading="lazy" class="w-10 h-10 object-contain rounded-xl shadow-md bg-white/10 p-0.5" />
   <div class="flex flex-col leading-none">
     <span class="font-headline-md text-lg font-black tracking-tight text-white">BUFFLAB</span>
     <span class="font-label-sm text-[9px] tracking-[0.2em] font-bold text-secondary-fixed uppercase mt-0.5">Clean Shoes</span>
@@ -693,7 +697,7 @@ try {
 </footer>
 
 <!-- FAB -->
-<button class="whatsapp-btn fixed bottom-gutter right-gutter bg-secondary text-on-secondary w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-40 group btn-interact">
+<button aria-label="Hubungi Kami lewat WhatsApp" class="whatsapp-btn fixed bottom-gutter right-gutter bg-secondary text-on-secondary w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-40 group btn-interact">
 <span class="material-symbols-outlined !text-3xl">chat_bubble</span>
 <span class="absolute right-full mr-4 bg-primary text-on-primary px-4 py-2 rounded-lg text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap shadow-xl">Hubungi Kami</span>
 </button>
