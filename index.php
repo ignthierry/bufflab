@@ -246,7 +246,7 @@ try {
 <div class="bg-secondary text-on-secondary py-2.5 px-gutter text-center text-xs font-bold font-headline select-none relative z-50 flex items-center justify-center gap-2">
   <span class="flex items-center gap-1">
     <span class="material-symbols-outlined text-sm animate-pulse">local_fire_department</span>
-    PROMO SPESIAL: Cuci Sepatu 25K + Cuci 1 Gratis 1!
+    PROMO SPESIAL: Cuci 3 Pasang Cuma 50K! (15-30 Juni 2026)
   </span>
   <a href="#promo" class="underline hover:text-secondary-fixed transition-colors font-medium ml-2">Klaim Promo &rarr;</a>
 </div>
@@ -338,7 +338,7 @@ try {
   <!-- Left: Promo Image -->
   <div class="w-full lg:w-1/2 flex justify-center">
     <div class="relative rounded-3xl overflow-hidden shadow-2xl hover-lift border border-outline-variant/30 max-w-md w-full">
-      <img alt="Promo Spesial Bufflab Clean Shoes" class="w-full h-auto object-cover" src="promo.jpg" />
+      <img alt="Promo Spesial Bufflab Clean Shoes" class="w-full h-auto object-cover" src="promo%20(2).jpg" />
     </div>
   </div>
 
@@ -346,11 +346,12 @@ try {
   <div class="w-full lg:w-1/2 flex flex-col justify-center">
     <span class="bg-error text-on-error px-4 py-1.5 rounded-full font-label-sm text-xs mb-sm inline-block font-bold self-start uppercase tracking-wider animate-bounce">Promo Terbatas!</span>
     <h2 class="font-headline-lg text-headline-lg text-primary mb-md leading-tight">
-      Promo Spesial Cuci Sepatu 25K <br/>
-      <span class="text-secondary font-black">+ Cuci 1 Gratis 1</span>
+      Promo Spesial Cuci Sepatu <br/>
+      <span class="text-secondary font-black">3 Pasang Cuma 50K</span>
     </h2>
     <p class="font-body-lg text-body-lg text-on-surface-variant mb-lg leading-relaxed">
-      Dapatkan perawatan cuci sepatu premium dengan harga super hemat. Hanya dengan <strong>Rp 25.000</strong>, Anda sudah bisa mengembalikan kesegaran <strong>2 pasang sepatu</strong> kesayangan Anda! 
+      Dapatkan perawatan cuci sepatu premium dengan harga super hemat. Hanya dengan <strong>Rp 50.000</strong>, Anda sudah bisa mengembalikan kesegaran <strong>3 pasang sepatu</strong> kesayangan Anda! <br/>
+      <span class="text-sm font-semibold text-secondary mt-1 inline-block">Periode Promo: 15-30 Juni 2026</span>
     </p>
     
     <div class="space-y-sm mb-lg">
@@ -365,6 +366,10 @@ try {
       <div class="flex items-center gap-sm group">
         <span class="material-symbols-outlined text-secondary group-hover:scale-125 transition-transform duration-300">verified</span>
         <span class="font-body-md text-body-md text-slate-700">Berlaku untuk Layanan Fast Clean Pilihan</span>
+      </div>
+      <div class="flex items-center gap-sm group">
+        <span class="material-symbols-outlined text-secondary group-hover:scale-125 transition-transform duration-300">local_shipping</span>
+        <span class="font-body-md text-body-md text-slate-700">Gratis pickup dan delivery S&amp;K, max 4km dari lokasi Bufflab</span>
       </div>
     </div>
     
