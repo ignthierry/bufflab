@@ -241,27 +241,6 @@ try {
     <link rel="stylesheet" href="style.css" />
 </head>
 <body class="bg-background text-on-surface font-body-md selection:bg-secondary-fixed selection:text-on-secondary-fixed">
-<!-- Holiday Announcement Banner with Image -->
-<div class="bg-error text-on-error px-gutter py-6 relative z-[60] shadow-lg border-b-4 border-on-error/20">
-  <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-6">
-    <!-- Image Section -->
-    <div class="w-full md:w-1/3 flex justify-center md:justify-end">
-      <img src="pengumuman-libur.jpg" alt="Pengumuman Libur Bufflab" class="w-full max-w-[280px] rounded-xl shadow-2xl border-4 border-white/20 hover:scale-105 transition-transform duration-300">
-    </div>
-    <!-- Text Section -->
-    <div class="w-full md:w-2/3 text-center md:text-left">
-      <div class="flex items-center justify-center md:justify-start gap-2 mb-3">
-        <span class="material-symbols-outlined text-3xl animate-pulse">campaign</span>
-        <span class="font-headline-md text-xl md:text-2xl font-black uppercase tracking-widest">Pengumuman Libur</span>
-      </div>
-      <p class="font-body-md text-base md:text-lg font-medium leading-relaxed max-w-xl mx-auto md:mx-0">
-        Bufflab libur tanggal <strong class="bg-on-error/20 px-2 py-1 rounded">01 - 14 Juni 2026</strong>. <br class="hidden md:block"/>
-        Selama periode tersebut, kami tidak menerima order maupun mengerjakan cucian. <br/>
-        Buka kembali pada <strong class="bg-on-error text-error px-3 py-1 rounded-full shadow-sm ml-1 inline-block mt-3">15 Juni 2026</strong>
-      </p>
-    </div>
-  </div>
-</div>
 
 <!-- Announcement Promo Bar -->
 <div class="bg-secondary text-on-secondary py-2.5 px-gutter text-center text-xs font-bold font-headline select-none relative z-50 flex items-center justify-center gap-2">
